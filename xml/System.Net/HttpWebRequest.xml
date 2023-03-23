@@ -3989,6 +3989,8 @@ The GetHashCode method returns a hash code of the web request. This value can be
 
  `http://www.contoso.com/firstpath`
 
+ `http://www.contoso.com/firstpath/secondpath/`
+
  `http://www.contoso.com/secondpath/`
 
  If the client request to a specific <xref:System.Uri> is not successfully authenticated, the request uses standard authentication procedures.
